@@ -1,0 +1,27 @@
+# Local credentials and server-specific configuration
+/wp-config.php
+/.private/
+/.user.ini
+/wp-content/.user.ini
+/.env
+/.env.*
+
+# Runtime logs and local backup artifacts
+*.log
+*.bak
+*.bk
+*.old
+/wp-content/uploads/2026/08/solar-energy-child.zip
+
+# Private or generated WordPress uploads
+/wp-content/uploads/cartflows-logs/
+/wp-content/uploads/wc-logs/
+/wp-content/uploads/suremails/
+/wp-content/uploads/woocommerce_uploads/
+/wp-content/uploads/2026/08/cart-abandonment-recovery*.json
+/wp-content/uploads/ast-block-templates-json/
+/wp-content/uploads/astra-sites/json/
+
+# Local WordPress caches and upgrades
+/wp-content/cache/
+/wp-content/upgrade/
